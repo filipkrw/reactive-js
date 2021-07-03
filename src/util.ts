@@ -11,3 +11,11 @@ export function createSubscriber(tag: String) {
     },
   }
 }
+
+export function getItem() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('HELLO')
+    }, 1000)
+  })
+}

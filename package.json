@@ -7,16 +7,19 @@
     "1": "webpack serve --config webpack.config.js --entry ./src/1-autocomplete",
     "2": "webpack serve --config webpack.config.js --entry ./src/2-creating-observables",
     "3": "webpack serve --config webpack.config.js --entry ./src/3-built-in-observables",
+    "4": "nodemon --exec ts-node --project tsconfig.node.json ./src/4-from/index.ts",
     "start": "webpack serve --config webpack.config.js",
     "build": "webpack build --config webpack.config.js"
   },
   "dependencies": {
     "@types/jquery": "^3.5.5",
     "jquery": "^3.6.0",
+    "nodemon": "^2.0.9",
     "rxjs": "^7.1.0"
   },
   "devDependencies": {
     "ts-loader": "^9.2.2",
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
