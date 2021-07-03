@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs'
-import { createSubscriber } from '../createSubscriber'
+import { createSubscriber } from '../util'
 
 function createInterval$(time: number) {
   return new Observable((observer) => {

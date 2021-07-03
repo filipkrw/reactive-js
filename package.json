@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "1": "webpack serve --config webpack.config.js --entry ./src/1-autocomplete",
-    "2": "webpack serve --config webpack.config.js --entry ./src/2-observables",
+    "2": "webpack serve --config webpack.config.js --entry ./src/2-creating-observables",
+    "3": "webpack serve --config webpack.config.js --entry ./src/3-built-in-observables",
     "start": "webpack serve --config webpack.config.js",
     "build": "webpack build --config webpack.config.js"
   },
