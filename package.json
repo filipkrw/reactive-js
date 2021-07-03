@@ -1,0 +1,20 @@
+{
+  "name": "rxjs-ts-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js",
+    "build": "webpack build --config webpack.config.js"
+  },
+  "dependencies": {
+    "rxjs": "^7.1.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
