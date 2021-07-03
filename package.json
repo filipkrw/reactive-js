@@ -10,6 +10,7 @@
     "4": "nodemon --exec ts-node --project tsconfig.node.json ./src/4-from/index.ts",
     "5": "nodemon --exec ts-node --project tsconfig.node.json ./src/5-subjects/index.ts",
     "6": "nodemon --exec ts-node --project tsconfig.node.json ./src/6-hot-cold/index.ts",
+    "7": "nodemon --exec ts-node --project tsconfig.node.json ./src/7-operators/index.ts",
     "start": "webpack serve --config webpack.config.js",
     "build": "webpack build --config webpack.config.js"
   },
